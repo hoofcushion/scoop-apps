@@ -2,15 +2,15 @@
     "homepage": "http://softwareok.com/?seite=Microsoft/DesktopNoteOK",
     "description": "Desktop notes",
     "license": "freeware",
-    "version": "4.11",
+    "version": "4.18",
     "architecture": {
         "64bit": {
             "url": "http://softwareok.com/Download/DesktopNoteOK_x64_Portable.zip",
-            "hash": "99e838ebdc85e1c93520edff3faabb619b166386f6c962eaf8738386368940d4"
+            "hash": "4e98bef267f91804c9a6329ec921c38aa38052b5748eedf985532d5a2ea6557d"
         },
         "32bit": {
             "url": "http://softwareok.com/Download/DesktopNoteOK_Portable.zip",
-            "hash": "9a12d657e994e231a90d852b88dc011cdb58db96691fcd60c5ba172e17dc61e8"
+            "hash": "210167e0945f98de0950f659b7d8b5ba4eb256536ff8e75b93a1d27faa607585"
         }
     },
     "pre_install": [
