@@ -102,14 +102,14 @@ scoop bucket add apps https://github.com/kkzzhizhou/scoop-apps
 - cmontage/scoopbucket-third
 - xrgzs/sdoog
 - abgox/abgo_bucket
-- ygguorun/scoop-bucket
 - noql-net/scoop
-- aliesbelik/poldi
+- ygguorun/scoop-bucket
 - kengwang/scoop-ctftools-bucket
+- aliesbelik/poldi
 - brian6932/dank-scoop
 - iquiw/scoop-bucket
-- jfut/scoop-jfut
 - seumsc/scoop-seu
+- jfut/scoop-jfut
 - aoisummer/scoop-bucket
 - cc713/ownscoop
 - TianXiaTech/scoop-txt
