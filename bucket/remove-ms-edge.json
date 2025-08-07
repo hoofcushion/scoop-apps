@@ -1,11 +1,11 @@
 {
-    "version": "0.2025.08.01.bc40c36",
+    "version": "0.2025.08.07.f3b05a1",
     "description": "Uninstall Microsoft Edge silently, through an executable or batch script.",
     "homepage": "https://github.com/ShadowWhisperer/Remove-MS-Edge",
     "license": "Unknown",
-    "url": "https://github.com/ShadowWhisperer/Remove-MS-Edge/archive/bc40c367f4795947212f5eaf933513d4bd60630c.zip",
-    "hash": "cb26fe9c929ceae27b832f3d0f5df5acbacf42c7391b009cee97337cf5225e23",
-    "extract_dir": "Remove-MS-Edge-bc40c367f4795947212f5eaf933513d4bd60630c",
+    "url": "https://github.com/ShadowWhisperer/Remove-MS-Edge/archive/f3b05a1e23d97cb926297e9b2535efbf3695851f.zip",
+    "hash": "322d15716d7a9ba4ff512e2f9c805260302e6d78d5e01efd234b9eef4aa16748",
+    "extract_dir": "Remove-MS-Edge-f3b05a1e23d97cb926297e9b2535efbf3695851f",
     "shortcuts": [
         [
             "Remove-Edge.bat",
