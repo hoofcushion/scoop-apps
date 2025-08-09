@@ -1,7 +1,7 @@
 {
     "version": "1.14.10b",
-    "description": "🌀 Experience tranquillity while browsing the web without people tracking you!",
-    "homepage": "https://zen-browser.app/",
+    "description": "A open-source browser based on the Firefox engine",
+    "homepage": "https://www.zen-browser.app/",
     "license": "MPL-2.0",
     "notes": [
         "To set profile 'Scoop' as *DEFAULT*, or profiles/settings was lost after update:",
@@ -19,19 +19,15 @@
             "hash": "69e40b04be44efb3f15d06a6868293f4f56f88615b154652898ea136ba69c94b"
         }
     },
-    "extract_dir": "core",
     "post_install": [
         "zen -CreateProfile \"Scoop $persist_dir\\profile\"",
         "$Addition = \"$persist_dir\\addition\"",
         "if (Test-Path $Addition) {",
-        "   info 'Copying additional items..'",
-        "   Copy-Item -Path $Addition\\* -Destination $dir -Force -Recurse -ErrorAction SilentlyContinue",
-        "}",
-        "Remove-Item \"$dir\\update-settings.ini\" -Force -ErrorAction SilentlyContinue",
-        "Remove-Item \"$dir\\updater.exe\" -Force -ErrorAction SilentlyContinue",
-        "Remove-Item \"$dir\\updater.ini\" -Force -ErrorAction SilentlyContinue",
-        "Remove-Item \"$dir\\uninstall\" -Recurse -Force -ErrorAction SilentlyContinue"
+        "  info 'Copying additional items...'",
+        "  Copy-Item -Path $Addition\\* -Destination $dir -Force -Recurse -ErrorAction SilentlyContinue",
+        "}"
     ],
+    "extract_dir": "core",
     "bin": "zen.exe",
     "shortcuts": [
         [
@@ -49,8 +45,8 @@
         "profile"
     ],
     "checkver": {
-        "github": "https://github.com/zen-browser/desktop",
-        "regex": "/releases/tag/([\\d.]+-?b[.\\d]?)"
+        "url": "https://github.com/zen-browser/desktop/tags",
+        "regex": "releases/tag/([ab\\d.-]+)"
     },
     "autoupdate": {
         "architecture": {
